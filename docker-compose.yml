@@ -28,7 +28,7 @@ services:
           memory: "65MB"
 
   api1:
-    image: cicerocg/rinha-v1:latest
+    image: cicerocg/rinha-v1:v2.0
     platform: linux/amd64
     container_name: cgb-api1
     networks:
@@ -45,7 +45,7 @@ services:
           memory: '70MB'
 
   api2:
-    image: cicerocg/rinha-v1:latest
+    image: cicerocg/rinha-v1:v2.0
     platform: linux/amd64
     container_name: cgb-api2
     networks:
@@ -62,7 +62,7 @@ services:
           memory: '70MB'
 
   worker:
-    image: cicerocg/rinha-v1:latest
+    image: cicerocg/rinha-v1:v2.0
     platform: linux/amd64
     container_name: cgb-worker
     networks:
